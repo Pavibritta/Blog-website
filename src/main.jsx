@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import ThemeProvider from "./Context/ThemeContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Blog-website">
     <ThemeProvider>
       <App />
     </ThemeProvider>
